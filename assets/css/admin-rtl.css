@@ -1,0 +1,40 @@
+/**
+ * WPCalibrate Marketplace Review Importer - Admin RTL Styles
+ */
+
+.wpcmri-admin-wrap {
+	margin: 24px 4px 40px 24px;
+}
+
+.wpcmri-hero-brand {
+	flex-direction: row-reverse;
+}
+
+.wpcmri-source-radio {
+	right: auto;
+	left: 18px;
+}
+
+.wpcmri-source-card-header {
+	padding-right: 0;
+	padding-left: 28px;
+}
+
+.wpcmri-card-success {
+	border-left: none;
+	border-right: 4px solid var(--wpcmri-success);
+}
+
+.wpcmri-notice-box {
+	border-left: none;
+	border-right: 4px solid var(--wpcmri-primary);
+	border-radius: var(--wpcmri-radius-sm) 0 0 var(--wpcmri-radius-sm);
+}
+
+.wpcmri-count-label {
+	text-align: left;
+}
+
+.wpcmri-table th {
+	text-align: right;
+}

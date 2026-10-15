@@ -1,0 +1,1029 @@
+/**
+ * WPCalibrate Marketplace Review Importer - Admin Styles
+ * Professional, modern UI layout engineered for high visual quality and WordPress admin consistency.
+ */
+
+:root {
+	--wpcmri-primary: #2563eb;
+	--wpcmri-primary-hover: #1d4ed8;
+	--wpcmri-primary-light: #eff6ff;
+	--wpcmri-primary-border: #bfdbfe;
+	--wpcmri-success: #059669;
+	--wpcmri-success-light: #ecfdf5;
+	--wpcmri-warning: #d97706;
+	--wpcmri-warning-light: #fffbeb;
+	--wpcmri-danger: #dc2626;
+	--wpcmri-danger-light: #fef2f2;
+	--wpcmri-text-main: #0f172a;
+	--wpcmri-text-muted: #64748b;
+	--wpcmri-border: #e2e8f0;
+	--wpcmri-border-subtle: #f1f5f9;
+	--wpcmri-card-bg: #ffffff;
+	--wpcmri-bg-alt: #f8fafc;
+	--wpcmri-radius-sm: 6px;
+	--wpcmri-radius-md: 10px;
+	--wpcmri-radius-lg: 14px;
+	--wpcmri-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+	--wpcmri-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+	--wpcmri-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+}
+
+/* Master Container */
+.wpcmri-admin-wrap {
+	max-width: 1220px;
+	margin: 24px 24px 40px 4px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	color: var(--wpcmri-text-main);
+	line-height: 1.5;
+}
+
+/* Hero Header Banner */
+.wpcmri-hero-header {
+	background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-lg);
+	padding: 24px 30px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: var(--wpcmri-shadow-sm);
+	gap: 24px;
+}
+
+.wpcmri-hero-brand {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+}
+
+.wpcmri-hero-logo {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	border-radius: var(--wpcmri-radius-md);
+	background: #ffffff;
+	padding: 4px;
+	border: 1px solid var(--wpcmri-border);
+	box-shadow: var(--wpcmri-shadow-sm);
+}
+
+.wpcmri-hero-fallback-icon {
+	font-size: 38px;
+	width: 38px;
+	height: 38px;
+	color: var(--wpcmri-primary);
+}
+
+.wpcmri-hero-text {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.wpcmri-title-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.wpcmri-hero-title {
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	font-weight: 700;
+	color: var(--wpcmri-text-main);
+	letter-spacing: -0.3px;
+}
+
+.wpcmri-hero-subtitle {
+	margin: 2px 0 0 0;
+	color: var(--wpcmri-text-muted);
+	font-size: 13.5px;
+	max-width: 650px;
+	line-height: 1.45;
+}
+
+.wpcmri-hero-actions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+}
+
+/* Modern Segmented Navigation Tabs */
+.wpcmri-tabs-nav {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	background: #ffffff;
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-md);
+	padding: 6px;
+	margin-bottom: 24px;
+	box-shadow: var(--wpcmri-shadow-sm);
+	overflow-x: auto;
+}
+
+.wpcmri-tab-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 9px 16px;
+	font-size: 13.5px;
+	font-weight: 500;
+	color: var(--wpcmri-text-muted);
+	text-decoration: none;
+	border-radius: var(--wpcmri-radius-sm);
+	transition: all 0.18s ease-in-out;
+	white-space: nowrap;
+}
+
+.wpcmri-tab-link .dashicons {
+	font-size: 17px;
+	width: 17px;
+	height: 17px;
+	line-height: 17px;
+	color: inherit;
+}
+
+.wpcmri-tab-link:hover {
+	color: var(--wpcmri-text-main);
+	background: var(--wpcmri-bg-alt);
+}
+
+.wpcmri-tab-link:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px var(--wpcmri-primary-border);
+}
+
+.wpcmri-tab-link.is-active {
+	background: var(--wpcmri-primary);
+	color: #ffffff;
+	font-weight: 600;
+	box-shadow: 0 2px 8px rgba(37, 99, 235, 0.28);
+}
+
+.wpcmri-tab-link.is-active .dashicons {
+	color: #ffffff;
+}
+
+/* Cards & Content Containers */
+.wpcmri-tab-body {
+	position: relative;
+}
+
+.wpcmri-card,
+.wpcmri-section-card {
+	background: var(--wpcmri-card-bg);
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-lg);
+	padding: 28px 32px;
+	box-shadow: var(--wpcmri-shadow-sm);
+	margin-bottom: 24px;
+	position: relative;
+}
+
+.wpcmri-card-success {
+	border-left: 4px solid var(--wpcmri-success);
+}
+
+.wpcmri-section-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 16px;
+	margin-bottom: 22px;
+	border-bottom: 1px solid var(--wpcmri-border-subtle);
+}
+
+.wpcmri-section-header h2,
+.wpcmri-card h2 {
+	margin: 0 0 6px 0;
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--wpcmri-text-main);
+	letter-spacing: -0.2px;
+}
+
+.wpcmri-section-desc {
+	margin: 0;
+	font-size: 13.5px;
+	color: var(--wpcmri-text-muted);
+}
+
+.wpcmri-card h3 {
+	margin: 20px 0 12px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--wpcmri-text-main);
+}
+
+/* Badges & Status Pills */
+.wpcmri-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 9px;
+	font-size: 11px;
+	font-weight: 600;
+	border-radius: 20px;
+	background: #f1f5f9;
+	color: #475569;
+	letter-spacing: 0.2px;
+	line-height: 1.3;
+}
+
+.wpcmri-badge-version {
+	background: #f1f5f9;
+	color: #334155;
+	border: 1px solid #cbd5e1;
+}
+
+.wpcmri-badge-pro-ready {
+	background: var(--wpcmri-primary-light);
+	color: var(--wpcmri-primary);
+	border: 1px solid var(--wpcmri-primary-border);
+}
+
+.wpcmri-badge-free {
+	background: var(--wpcmri-success-light);
+	color: var(--wpcmri-success);
+	border: 1px solid #a7f3d0;
+}
+
+.wpcmri-badge-success {
+	background: var(--wpcmri-success-light);
+	color: var(--wpcmri-success);
+	border: 1px solid #a7f3d0;
+}
+
+.wpcmri-badge-warning {
+	background: var(--wpcmri-warning-light);
+	color: var(--wpcmri-warning);
+	border: 1px solid #fde68a;
+}
+
+.wpcmri-badge-danger {
+	background: var(--wpcmri-danger-light);
+	color: var(--wpcmri-danger);
+	border: 1px solid #fecaca;
+}
+
+.wpcmri-mini-badge {
+	display: inline-block;
+	background: #f1f5f9;
+	color: #475569;
+	padding: 3px 10px;
+	border-radius: 20px;
+	font-size: 11.5px;
+	font-weight: 500;
+	border: 1px solid var(--wpcmri-border);
+}
+
+/* Modern Buttons */
+.wpcmri-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 7px;
+	padding: 9px 16px;
+	font-size: 13px;
+	font-weight: 600;
+	border-radius: var(--wpcmri-radius-sm);
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
+	border: 1px solid transparent;
+	line-height: 1.3;
+}
+
+.wpcmri-btn .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+}
+
+.wpcmri-btn-primary {
+	background: var(--wpcmri-primary);
+	color: #ffffff !important;
+	border-color: var(--wpcmri-primary-hover);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.wpcmri-btn-primary:hover {
+	background: var(--wpcmri-primary-hover);
+	border-color: #1e40af;
+	transform: translateY(-1px);
+	box-shadow: var(--wpcmri-shadow-sm);
+}
+
+.wpcmri-btn-secondary {
+	background: #ffffff;
+	color: var(--wpcmri-text-main) !important;
+	border-color: #cbd5e1;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.wpcmri-btn-secondary:hover {
+	background: var(--wpcmri-bg-alt);
+	border-color: #94a3b8;
+	color: var(--wpcmri-text-main);
+	transform: translateY(-1px);
+}
+
+.wpcmri-btn-ghost {
+	background: transparent;
+	color: var(--wpcmri-text-muted) !important;
+	border-color: var(--wpcmri-border);
+}
+
+.wpcmri-btn-ghost:hover {
+	background: var(--wpcmri-bg-alt);
+	color: var(--wpcmri-text-main) !important;
+	border-color: #cbd5e1;
+}
+
+.wpcmri-btn-lg {
+	padding: 11px 22px;
+	font-size: 14px;
+	border-radius: 8px;
+}
+
+.wpcmri-btn-sm {
+	padding: 5px 11px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+/* ==========================================================
+   OVERVIEW TAB STYLES
+   ========================================================== */
+.wpcmri-overview-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.wpcmri-overview-welcome {
+	background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+	border: 1px solid var(--wpcmri-primary-border);
+}
+
+.wpcmri-kicker {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	color: var(--wpcmri-primary);
+	margin-bottom: 8px;
+}
+
+.wpcmri-overview-welcome h2 {
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--wpcmri-text-main);
+	margin: 0 0 12px 0;
+	line-height: 1.3;
+}
+
+.wpcmri-overview-lead {
+	font-size: 14.5px;
+	line-height: 1.65;
+	color: #334155;
+	margin: 0 0 22px 0;
+	max-width: 900px;
+}
+
+.wpcmri-overview-cta-group {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+/* 3 Core Pillars */
+.wpcmri-pillars-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	gap: 20px;
+	margin-bottom: 4px;
+}
+
+.wpcmri-pillar-card {
+	background: #ffffff;
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-lg);
+	padding: 26px;
+	box-shadow: var(--wpcmri-shadow-sm);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wpcmri-pillar-card:hover {
+	transform: translateY(-2px);
+	box-shadow: var(--wpcmri-shadow-md);
+}
+
+.wpcmri-pillar-icon {
+	width: 44px;
+	height: 44px;
+	border-radius: var(--wpcmri-radius-md);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+.wpcmri-pillar-icon .dashicons {
+	font-size: 22px;
+	width: 22px;
+	height: 22px;
+}
+
+.wpcmri-pillar-card h3 {
+	margin: 0 0 10px 0;
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--wpcmri-text-main);
+}
+
+.wpcmri-pillar-card p {
+	margin: 0;
+	font-size: 13.5px;
+	line-height: 1.6;
+	color: var(--wpcmri-text-muted);
+}
+
+/* 5-Step Methodology Timeline */
+.wpcmri-steps-timeline {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	position: relative;
+	margin-top: 10px;
+}
+
+.wpcmri-step-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	padding: 16px 20px;
+	background: var(--wpcmri-bg-alt);
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-md);
+	transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.wpcmri-step-item:hover {
+	background: #ffffff;
+	border-color: var(--wpcmri-primary-border);
+}
+
+.wpcmri-step-num {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background: var(--wpcmri-primary-light);
+	color: var(--wpcmri-primary);
+	border: 2px solid var(--wpcmri-primary-border);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-weight: 700;
+	flex-shrink: 0;
+	box-shadow: var(--wpcmri-shadow-sm);
+}
+
+.wpcmri-step-content {
+	flex: 1;
+}
+
+.wpcmri-step-content h4 {
+	margin: 0 0 6px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--wpcmri-text-main);
+}
+
+.wpcmri-step-content p {
+	margin: 0;
+	font-size: 13.5px;
+	line-height: 1.55;
+	color: var(--wpcmri-text-muted);
+}
+
+.wpcmri-step-badges {
+	display: flex;
+	gap: 8px;
+	margin-top: 10px;
+	flex-wrap: wrap;
+}
+
+/* Feature Matrix Grid */
+.wpcmri-features-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+	gap: 20px;
+	margin-top: 12px;
+}
+
+.wpcmri-feature-box {
+	display: flex;
+	align-items: flex-start;
+	gap: 14px;
+	padding: 16px;
+	background: var(--wpcmri-bg-alt);
+	border-radius: var(--wpcmri-radius-md);
+	border: 1px solid var(--wpcmri-border-subtle);
+}
+
+.wpcmri-feature-box .dashicons {
+	font-size: 22px;
+	width: 22px;
+	height: 22px;
+	margin-top: 2px;
+	flex-shrink: 0;
+}
+
+.wpcmri-feature-box strong {
+	display: block;
+	font-size: 14px;
+	color: var(--wpcmri-text-main);
+	margin-bottom: 4px;
+}
+
+.wpcmri-feature-box p {
+	margin: 0;
+	font-size: 13px;
+	line-height: 1.5;
+	color: var(--wpcmri-text-muted);
+}
+
+/* Footer Callout Card */
+.wpcmri-footer-card {
+	background: #ffffff;
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-lg);
+	padding: 24px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	box-shadow: var(--wpcmri-shadow-sm);
+	flex-wrap: wrap;
+}
+
+.wpcmri-footer-card h3 {
+	margin: 0 0 4px 0;
+	font-size: 17px;
+	font-weight: 700;
+	color: var(--wpcmri-text-main);
+}
+
+.wpcmri-footer-card p {
+	margin: 0;
+	font-size: 13.5px;
+	color: var(--wpcmri-text-muted);
+}
+
+.wpcmri-footer-actions {
+	display: flex;
+	gap: 10px;
+}
+
+/* ==========================================================
+   IMPORT TAB & SOURCE CARDS
+   ========================================================== */
+.wpcmri-form-group {
+	margin-bottom: 22px;
+}
+
+.wpcmri-form-label {
+	display: block;
+	font-size: 13.5px;
+	font-weight: 600;
+	color: var(--wpcmri-text-main);
+	margin-bottom: 8px;
+}
+
+.wpcmri-required {
+	color: var(--wpcmri-danger);
+	font-weight: bold;
+}
+
+.wpcmri-form-hint {
+	margin: 6px 0 0 0;
+	font-size: 12.5px;
+	color: var(--wpcmri-text-muted);
+	line-height: 1.4;
+}
+
+/* Interactive Source Selection Cards */
+.wpcmri-source-cards-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 18px;
+	margin: 12px 0 24px 0;
+}
+
+.wpcmri-source-card {
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	border: 2px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-md);
+	padding: 20px;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.18s ease-in-out;
+}
+
+.wpcmri-source-card:hover:not(.is-disabled) {
+	border-color: #93c5fd;
+	background: var(--wpcmri-bg-alt);
+	transform: translateY(-2px);
+	box-shadow: var(--wpcmri-shadow-md);
+}
+
+.wpcmri-source-card.is-selected {
+	border-color: var(--wpcmri-primary);
+	background: var(--wpcmri-primary-light);
+	box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+}
+
+.wpcmri-source-card.is-disabled {
+	opacity: 0.65;
+	cursor: not-allowed;
+	background: #f8fafc;
+	border-style: dashed;
+}
+
+.wpcmri-source-radio {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	margin: 0 !important;
+}
+
+.wpcmri-source-card-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 14px;
+	padding-right: 28px;
+}
+
+.wpcmri-source-icon {
+	font-size: 28px;
+	width: 28px;
+	height: 28px;
+	color: var(--wpcmri-primary);
+}
+
+.wpcmri-source-card h4 {
+	margin: 0 0 8px 0;
+	font-size: 15px;
+	font-weight: 700;
+	color: var(--wpcmri-text-main);
+}
+
+.wpcmri-source-card p {
+	margin: 0;
+	font-size: 13px;
+	line-height: 1.5;
+	color: var(--wpcmri-text-muted);
+}
+
+/* Source Config Panels & Dropzones */
+.wpcmri-source-panel {
+	background: #ffffff;
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-md);
+	padding: 24px;
+	margin-bottom: 24px;
+}
+
+.wpcmri-panel-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 18px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid var(--wpcmri-border-subtle);
+}
+
+.wpcmri-panel-heading h3 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.wpcmri-dropzone {
+	border: 2px dashed #cbd5e1;
+	border-radius: var(--wpcmri-radius-md);
+	padding: 36px 24px;
+	text-align: center;
+	background: var(--wpcmri-bg-alt);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.wpcmri-dropzone:hover {
+	border-color: var(--wpcmri-primary);
+	background: var(--wpcmri-primary-light);
+}
+
+.wpcmri-dropzone-icon {
+	font-size: 38px;
+	width: 38px;
+	height: 38px;
+	color: var(--wpcmri-primary);
+	margin-bottom: 10px;
+}
+
+.wpcmri-dropzone h4 {
+	margin: 0 0 6px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--wpcmri-text-main);
+}
+
+.wpcmri-file-input {
+	margin-top: 14px;
+	display: inline-block;
+}
+
+/* Form Inputs, Selects & Grids */
+.wpcmri-grid-2 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 20px;
+}
+
+.wpcmri-input,
+.wpcmri-select,
+.wpcmri-textarea {
+	width: 100%;
+	padding: 9px 13px;
+	font-size: 13.5px;
+	border: 1px solid #cbd5e1;
+	border-radius: var(--wpcmri-radius-sm);
+	background: #ffffff;
+	color: var(--wpcmri-text-main);
+	transition: border-color 0.15s, box-shadow 0.15s;
+	box-sizing: border-box;
+}
+
+.wpcmri-input:focus,
+.wpcmri-select:focus,
+.wpcmri-textarea:focus {
+	border-color: var(--wpcmri-primary);
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.wpcmri-code {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 12.5px;
+	line-height: 1.5;
+	background: #f8fafc;
+}
+
+/* Checkbox Row Styling */
+.wpcmri-checkbox-label {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	font-size: 13.5px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-bottom: 6px;
+}
+
+.wpcmri-checkbox-label input[type="checkbox"] {
+	margin: 0;
+}
+
+/* Metrics Dashboard Grid */
+.wpcmri-metrics-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 16px;
+	margin: 20px 0;
+}
+
+.wpcmri-metric-box {
+	background: var(--wpcmri-bg-alt);
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-md);
+	padding: 18px 20px;
+	text-align: center;
+}
+
+.wpcmri-metric-val {
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.1;
+	color: var(--wpcmri-text-main);
+}
+
+.wpcmri-metric-lbl {
+	margin-top: 6px;
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--wpcmri-text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}
+
+.wpcmri-metric-success .wpcmri-metric-val {
+	color: var(--wpcmri-success);
+}
+
+.wpcmri-metric-warning .wpcmri-metric-val {
+	color: var(--wpcmri-warning);
+}
+
+.wpcmri-metric-danger .wpcmri-metric-val {
+	color: var(--wpcmri-danger);
+}
+
+/* Star Rating Bars */
+.wpcmri-rating-bars {
+	max-width: 520px;
+	margin: 14px 0 22px 0;
+}
+
+.wpcmri-rating-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 8px;
+}
+
+.wpcmri-stars-label {
+	width: 90px;
+	color: #f59e0b;
+	font-weight: 700;
+	font-size: 13.5px;
+}
+
+.wpcmri-bar-track {
+	flex: 1;
+	background: #e2e8f0;
+	border-radius: 6px;
+	height: 12px;
+	overflow: hidden;
+}
+
+.wpcmri-bar-fill {
+	background: #f59e0b;
+	height: 100%;
+	border-radius: 6px;
+	transition: width 0.3s ease;
+}
+
+.wpcmri-count-label {
+	width: 80px;
+	font-size: 12.5px;
+	color: var(--wpcmri-text-muted);
+	text-align: right;
+}
+
+/* Tables & Lists */
+.wpcmri-table-wrap {
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-md);
+	overflow: hidden;
+	margin: 16px 0;
+}
+
+.wpcmri-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13.5px;
+}
+
+.wpcmri-table th {
+	background: var(--wpcmri-bg-alt);
+	color: var(--wpcmri-text-muted);
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	padding: 12px 18px;
+	border-bottom: 1px solid var(--wpcmri-border);
+	text-align: left;
+}
+
+.wpcmri-table td {
+	padding: 14px 18px;
+	border-bottom: 1px solid var(--wpcmri-border-subtle);
+	color: var(--wpcmri-text-main);
+	vertical-align: middle;
+}
+
+.wpcmri-table tr:last-child td {
+	border-bottom: none;
+}
+
+.wpcmri-table tr:hover td {
+	background: #fbfcfd;
+}
+
+/* Notice & Callout Box */
+.wpcmri-notice-box {
+	background: var(--wpcmri-bg-alt);
+	border-left: 4px solid var(--wpcmri-primary);
+	padding: 14px 20px;
+	margin: 16px 0 20px 0;
+	border-radius: 0 var(--wpcmri-radius-sm) var(--wpcmri-radius-sm) 0;
+}
+
+.wpcmri-notice-box h4 {
+	margin: 0 0 6px 0;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: var(--wpcmri-text-main);
+	font-size: 14px;
+}
+
+.wpcmri-notice-box p {
+	margin: 0;
+	font-size: 13px;
+	line-height: 1.5;
+	color: var(--wpcmri-text-muted);
+}
+
+/* Contact Cards Grid */
+.wpcmri-contact-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 18px;
+	margin: 20px 0 24px 0;
+}
+
+.wpcmri-contact-card {
+	background: var(--wpcmri-bg-alt);
+	border: 1px solid var(--wpcmri-border);
+	border-radius: var(--wpcmri-radius-md);
+	padding: 22px;
+	text-align: center;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wpcmri-contact-card:hover {
+	transform: translateY(-2px);
+	box-shadow: var(--wpcmri-shadow-md);
+	background: #ffffff;
+}
+
+.wpcmri-contact-card h4 {
+	margin: 12px 0 6px 0;
+	font-size: 15px;
+	color: var(--wpcmri-text-main);
+}
+
+.wpcmri-contact-card p {
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: var(--wpcmri-text-muted);
+}
+
+.wpcmri-contact-card a {
+	text-decoration: none;
+	font-weight: 600;
+	color: var(--wpcmri-primary);
+}
+
+.wpcmri-contact-card a:hover {
+	text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+	.wpcmri-hero-header {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 20px;
+	}
+
+	.wpcmri-card,
+	.wpcmri-section-card {
+		padding: 20px;
+	}
+
+	.wpcmri-source-cards-grid,
+	.wpcmri-pillars-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.wpcmri-footer-card {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

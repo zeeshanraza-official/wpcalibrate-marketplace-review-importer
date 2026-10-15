@@ -1,0 +1,44 @@
+/**
+ * WPCalibrate Marketplace Review Importer - Frontend RTL Styles
+ */
+
+.wpcmri-score-col {
+	border-right: none;
+	border-left: 1px solid #f1f5f9;
+	padding-right: 0;
+	padding-left: 28px;
+}
+
+.wpcmri-bar-count {
+	text-align: left;
+}
+
+.woocommerce-Reviews .commentlist li .star-rating {
+	float: left;
+}
+
+.woocommerce-Reviews .commentlist li .avatar,
+.woocommerce-Reviews .commentlist li img.avatar,
+.wpcmri-initials-avatar {
+	float: right;
+	margin-right: 0 !important;
+	margin-left: 14px !important;
+}
+
+.wpcmri-badge-verified-buyer {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+.wpcmri-source-link,
+.wpcmri-source-note {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+@media (max-width: 768px) {
+	.wpcmri-score-col {
+		border-left: none;
+		padding-left: 0;
+	}
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:00:00Z",
+  "source": "Amazon Customer Reviews Dataset (Demo)",
+  "target_asin": "B08N5WRWNW",
+  "marketplace": "amazon.com",
+  "reviews": [
+    {
+      "rating": 5,
+      "review_text": "I have been using this product for three weeks now and it has completely exceeded my expectations. The build quality feels exceptionally sturdy and the setup took less than five minutes. Definitely worth every penny.",
+      "review_title": "Exceptional quality and build!",
+      "reviewer_name": "Marcus Vance",
+      "review_date": "2026-09-12",
+      "source_review_id": "R1DF68X9Q2LM0P",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R1DF68X9Q2LM0P",
+      "verified_purchase_source": true,
+      "helpful_votes": 42,
+      "image_urls": [
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600"
+      ]
+    },
+    {
+      "rating": 5,
+      "review_text": "Arrived on time and in flawless packaging. Performs exactly as advertised in the product listing. Very quiet operation and elegant aesthetics.",
+      "review_title": "Flawless performance and aesthetics",
+      "reviewer_name": "Elena Rostova",
+      "review_date": "2026-09-18",
+      "source_review_id": "R2M891QP04ZT5X",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R2M891QP04ZT5X",
+      "verified_purchase_source": true,
+      "helpful_votes": 19,
+      "image_urls": []
+    },
+    {
+      "rating": 5,
+      "review_text": "Hands down the best purchase I made this quarter. Highly intuitive to use and the battery life lasts twice as long as my previous unit.",
+      "review_title": "Best in its category",
+      "reviewer_name": "David K.",
+      "review_date": "2026-09-22",
+      "source_review_id": "R3B765LK98JH32",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R3B765LK98JH32",
+      "verified_purchase_source": true,
+      "helpful_votes": 31,
+      "image_urls": [
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600"
+      ]
+    },
+    {
+      "rating": 5,
+      "review_text": "Super clean craftsmanship. It integrates smoothly into my daily workflow and feels premium to the touch. Highly recommend to anyone on the fence.",
+      "review_title": "Outstanding craftsmanship",
+      "reviewer_name": "Sarah Jenkins",
+      "review_date": "2026-09-27",
+      "source_review_id": "R4C543MN21LK90",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R4C543MN21LK90",
+      "verified_purchase_source": true,
+      "helpful_votes": 8,
+      "image_urls": []
+    },
+    {
+      "rating": 5,
+      "review_text": "Everything from unboxing to daily usage has been top notch. Customer support was also very helpful when I asked an initial question about specs.",
+      "review_title": "Fantastic product and support",
+      "reviewer_name": "Liam O'Connor",
+      "review_date": "2026-10-01",
+      "source_review_id": "R5N876JH54GF21",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R5N876JH54GF21",
+      "verified_purchase_source": true,
+      "helpful_votes": 15,
+      "image_urls": []
+    },
+    {
+      "rating": 5,
+      "review_text": "I was skeptical at first given the price point, but after reading reviews I gave it a shot. Absolutely no regrets. Will be buying a second one as a gift.",
+      "review_title": "Exceeded expectations for the price",
+      "reviewer_name": "Chloe Bennett",
+      "review_date": "2026-10-04",
+      "source_review_id": "R6P987AS32QW65",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R6P987AS32QW65",
+      "verified_purchase_source": false,
+      "helpful_votes": 6,
+      "image_urls": []
+    },
+    {
+      "rating": 5,
+      "review_text": "Reliable, fast, and remarkably durable. I dropped it accidentally on hardwood flooring on day two and there was zero damage. Built like a tank.",
+      "review_title": "Extremely durable and reliable",
+      "reviewer_name": "Carlos Mendoza",
+      "review_date": "2026-10-07",
+      "source_review_id": "R7K654TR89PO43",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R7K654TR89PO43",
+      "verified_purchase_source": true,
+      "helpful_votes": 27,
+      "image_urls": []
+    },
+    {
+      "rating": 4,
+      "review_text": "Solid overall product with great reliability. The only minor gripe is that the printed quick-start guide has relatively small font, but the online PDF is comprehensive.",
+      "review_title": "Solid product with minor manual issue",
+      "reviewer_name": "Rachel Tanaka",
+      "review_date": "2026-09-14",
+      "source_review_id": "R8H432ZX10LK87",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R8H432ZX10LK87",
+      "verified_purchase_source": true,
+      "helpful_votes": 11,
+      "image_urls": []
+    },
+    {
+      "rating": 4,
+      "review_text": "Great value for money. Works very nicely and looks sleek on the desk. Docked one star only because the delivery courier took an extra day.",
+      "review_title": "Great value and sleek look",
+      "reviewer_name": "Benjamin Ward",
+      "review_date": "2026-09-25",
+      "source_review_id": "R9V321MN65TY98",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R9V321MN65TY98",
+      "verified_purchase_source": true,
+      "helpful_votes": 4,
+      "image_urls": []
+    },
+    {
+      "rating": 4,
+      "review_text": "Does everything it claims without any fuss. The companion software could use a minor UI polish, but hardware-wise it is fantastic.",
+      "review_title": "Hardware is great, companion app is okay",
+      "reviewer_name": "Aisha Khan",
+      "review_date": "2026-10-03",
+      "source_review_id": "R10Z987LK54JH3",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R10Z987LK54JH3",
+      "verified_purchase_source": true,
+      "helpful_votes": 9,
+      "image_urls": []
+    },
+    {
+      "rating": 4,
+      "review_text": "Comfortable to hold and well calibrated right out of the box. A very dependable tool for daily projects.",
+      "review_title": "Dependable and well calibrated",
+      "reviewer_name": "Oliver Fischer",
+      "review_date": "2026-10-08",
+      "source_review_id": "R11W876PO32MN5",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R11W876PO32MN5",
+      "verified_purchase_source": true,
+      "helpful_votes": 3,
+      "image_urls": []
+    },
+    {
+      "rating": 3,
+      "review_text": "The product works as described, but it didn't blow me away. It is decent for casual use, but professionals might want heavier-duty alternatives.",
+      "review_title": "Decent for basic needs",
+      "reviewer_name": "Grace Kelly",
+      "review_date": "2026-09-20",
+      "source_review_id": "R12Q543JH87GF9",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R12Q543JH87GF9",
+      "verified_purchase_source": true,
+      "helpful_votes": 14,
+      "image_urls": []
+    },
+    {
+      "rating": 3,
+      "review_text": "Average performance. It gets the job done, but the exterior plastic can show fingerprints easily if your hands aren't completely clean.",
+      "review_title": "Average, attracts fingerprints",
+      "reviewer_name": "Nate Robinson",
+      "review_date": "2026-10-05",
+      "source_review_id": "R13L765TY21MN4",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R13L765TY21MN4",
+      "verified_purchase_source": false,
+      "helpful_votes": 2,
+      "image_urls": []
+    },
+    {
+      "rating": 2,
+      "review_text": "It worked fine for the first week, but then the power cable connection started becoming loose. Had to contact customer service for a replacement part.",
+      "review_title": "Loose cable issue after a week",
+      "reviewer_name": "Hannah Scott",
+      "review_date": "2026-09-29",
+      "source_review_id": "R14M321LK89JH7",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R14M321LK89JH7",
+      "verified_purchase_source": true,
+      "helpful_votes": 23,
+      "image_urls": []
+    },
+    {
+      "rating": 1,
+      "review_text": "Unfortunately this did not work well for my specific use case. The dimensions were slightly off from what I measured and it felt underwhelming for the price.",
+      "review_title": "Did not meet my requirements",
+      "reviewer_name": "Victor Cruz",
+      "review_date": "2026-10-06",
+      "source_review_id": "R15T987PO65TR2",
+      "source_url": "https://www.amazon.com/gp/customer-reviews/R15T987PO65TR2",
+      "verified_purchase_source": true,
+      "helpful_votes": 38,
+      "image_urls": []
+    }
+  ]
+}

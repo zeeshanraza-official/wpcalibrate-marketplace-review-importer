@@ -1,0 +1,25 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE Configs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary & Build Archives
+*.zip
+*.tar.gz
+*.log
+scratch/
+tests/
+bin/
+
+# Environment & Secrets
+.env
+.env.local
